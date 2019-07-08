@@ -1,0 +1,509 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*Header Part Start*/
+header {
+	background: #87509C;	
+	width: 100%;	
+	float: left;
+	padding: 25px 0px;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li{	
+	display: inline-block;
+	margin: 9px 47px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;	
+	font-size: 25px;
+}
+
+.banner {
+	width: 600px;
+	margin: 0 auto;
+	padding: 135px 0px;
+}
+
+.banner h2 {
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+	font-size: 27px;
+}
+
+.btn {	
+	display: block;	
+	margin: 0 auto;	
+	background-color: #EB7D4B;	
+	padding: 10px 25px;	
+	color: #fff;	
+	font-size: 20px;	
+	text-transform: uppercase;	
+	margin-top: 23px;	
+	border: none;	
+	box-shadow: 0px 4px 0px #bd592c;
+}
+/*Header Part End*/
+
+
+/*Service Part Start*/
+.service {
+	width: 100%;
+	float: left;
+	background: #17C2A4;
+	padding-bottom: 50px;
+}
+
+.text {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.text p {	
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.work {
+	padding-top: 40px;
+}
+
+.work-one {
+	width: 25%;
+	float: left;
+}
+
+.work-one img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.work-one h1 {
+	text-align: center;
+	color: white;
+}
+
+.work-one p {
+	text-align: center;
+	color: white;
+}
+
+span.underline {
+	border-bottom: 1px solid;
+    margin: 0 auto;
+    padding: 8px 18px;
+    display: block;
+    width: 70px;
+}
+/*Service Part End*/
+
+
+/*Team Part Start*/
+.team {
+	width: 100%;
+	float: left;
+	background:#D3D3D3;
+	padding-top: 30px;
+}
+
+.team-text {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+.team-text h1 {
+	text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.team-text p {
+	    padding: 10px;
+}
+
+.team-pic {
+	    padding-top: 30px;
+}
+.pic-one{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.pic-one img {
+	max-width: 100%;
+	display: block;
+}
+
+.pic-one h1 {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.pic-one h2 {
+	text-align: center;
+    color: #783AB7;
+}
+
+.pic-one p {
+    padding-top: 20px;
+}
+
+.pic-one ul {
+    list-style: none;
+    padding: 15px;
+}
+
+.pic-one ul li {
+	 display: inline;
+    margin: 12px;
+    background: #9e9e9e85;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+.pic-one ul li a {
+	
+}
+/*Team Part End*/
+
+
+/*Skill Part Start*/
+.skill {
+	width: 100%;
+	float: left;
+	padding-top: 16px;
+}
+
+.skill-text {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+.skill-text h1 {
+	text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.skill-text p {
+	padding-top: 10px;
+}
+
+.skill-pic {
+	width: 100%;
+	float: left;
+	padding-bottom: 30px;
+}
+
+.skill-one {
+	width: 25%;
+	float: left;
+	padding-top: 20px;
+}
+
+.skill-one img {
+	    margin: 0 auto;
+    display: block;
+}
+
+.skill-one h1 {
+	    text-align: center;
+    text-transform: capitalize;
+}
+/*Skill Part End*/
+
+
+/*Portfolio Part Start*/
+.Portfolio {
+	width: 100%;
+    float: left;
+    background: #FFDD99;
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
+
+.Portfolio-text {
+	width: 600px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.Portfolio-text h1 {
+	text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.Portfolio-text p {
+	padding-top: 10px;
+}
+
+.bt {
+	padding: 4px 10px;
+    margin: 10px;
+    background: #C7AC75;
+    color: white;
+    border: none;
+}
+
+.Portfolio-pic {
+	width: 100%;
+	float: left;
+}
+
+.Portfolio-one {
+	width: 50%;
+	float: left;
+}
+
+.Portfolio-one img {
+	padding-bottom: 10px;
+}
+
+.Portfolio-one h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.Portfolio-pict {
+	width: 100%;
+	float: left;
+}
+
+.Portfolio-two {
+	width: 50%;
+	float: left;
+}
+
+.Portfolio-two img {
+	padding-bottom: 10px;
+}
+
+.Portfolio-two h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.bto {
+	margin: 0 auto;
+    display: block;
+    padding: 16px 25px;
+    background: #30D0C1;
+    color: white;
+    box-shadow: 0px 4px 0px #009688;
+}
+/*Portfolio Part End*/
+
+
+/*About Part Start*/
+.about {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	background: #D74680;
+	padding-bottom: 30px;
+}
+
+.about-text {
+	width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.about-text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: white;
+}
+
+.about-text p {
+    padding-top: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.about-t {
+	width: 50%;
+	float: left;
+}
+
+.about-slide {
+	width: 100%;
+	float: left;
+}
+
+.about-pic {
+	width: 50%;
+	float: left;
+}
+
+.about-pic img {
+    display: block;
+    max-width: 100%;
+}
+
+.about-pic p {
+    padding: 15px 10px 0px 60px;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.about-pic h1 {
+	text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 48px;
+    padding-top: 25px;
+    color: white;
+}
+
+.about-pic h2 {
+    padding-left: 52px; 
+    color: #FFEB5A
+}
+
+.about-y {
+	width: 50%;
+	float: left;
+}
+/*About Part End*/
+
+
+/*Contact Part Start*/
+.contact {
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background: #39559C;
+}
+
+.contact-tittle {
+	width: 600px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.contact-tittle h1 {
+	text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: white;
+}
+
+.underline {
+
+}
+
+.contact-tittle p {
+	color: white;
+}
+
+.contact-form {
+	width: 600px;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+
+.form-control {
+	width: 46%; 
+	float: left;
+	height: 22px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.text-area {
+	width: 99%;
+	float: left;
+	height: 78px;
+	margin-bottom: 20px;
+}
+
+.submit-btn {
+	display: block;
+    margin: 0 auto;
+    background-color: #469aa5;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    border: none;
+    box-shadow: 0px 4px 0px #009688;
+}
+
+:: -webkit-input-placeholder {
+	color: rgba( 0 , 0, 0, .5);
+}
+/*Contact Part End*/
+
+
+/*Footer touch section Start*/
+.footer-menu {
+	width: 100%;
+    float: left;
+    padding-top: 30px;
+    background: #344B8E;
+    padding-bottom: 30px;
+}
+
+.menu-two {
+
+}
+
+.menu-two ul {
+	list-style: none;
+}
+
+.menu-two ul li {
+	display: inline;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.menu-two ul li a {
+    text-decoration: none;
+    color: white;
+}
+/*Footer touch section End*/
